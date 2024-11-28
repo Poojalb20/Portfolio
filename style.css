@@ -1,0 +1,128 @@
+/* Global-----*/
+body{
+    background-color:#bcaa96;
+    
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+/* Links */
+a{
+    color: red;
+}
+a:hover{
+    color:green;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+}
+
+.content-wrapper{
+    margin:0 auto;
+    width:800px;
+    padding:10px;
+}
+
+
+
+
+/* HOME-----*/
+.home{
+    background-image: url('img_2.jpg');
+    background-size:cover;
+    margin: 0;
+}
+
+
+.home .content-wrapper{
+   /* background: rgb(255 255 255/0.8); */
+    margin:0 auto;
+    flex: 1 0 auto;
+}
+
+.home .container{
+    background-color: rgb(255 255 255/0.9);
+    padding:10px;
+    
+
+}
+
+ footer{
+    background: black;
+    height: 40px;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+footer p{
+    color: whitesmoke;
+    font-size:smaller;
+    padding:5px ;
+    
+}
+
+footer a{
+    color:red;
+}
+
+footer a:hover{
+    color:green;
+    
+}
+
+.socials{
+    list-style-type: none;
+    padding: 1px;
+    
+
+}
+
+.socials img{
+    width:25px;
+    padding: 4px;
+}
+
+.socials li{
+    display:inline-block;
+}
+
+
+.home{
+display:flex;
+flex-direction: column;
+}
+
+
+/*RESUME-----*/
+
+
+
+
+
+
+/*Profile------/
+
+
+
+
+
+/*Educational------/
+
+
+
+
+
+
+/*Technical Skills-----/
