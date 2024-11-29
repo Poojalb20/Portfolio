@@ -32,6 +32,18 @@ html, body{
     padding:10px;
 }
 
+@media screen and (max-width: 808px){
+    body{
+        height:auto;
+        width: auto;
+        background-size:contain;
+
+       
+    }
+    
+}
+
+
 
 
 
@@ -40,6 +52,7 @@ html, body{
     background-image: url('img_2.jpg');
     background-size:cover;
     margin: 0;
+   
 }
 
 
@@ -52,10 +65,9 @@ html, body{
 .home .container{
     background-color: rgb(255 255 255/0.9);
     padding:10px;
-    }
+    
 
-@media screen and (min-width: 520px){
-    }
+}
 
  footer{
     background: black;
@@ -103,6 +115,8 @@ footer a:hover{
 .home{
 display:flex;
 flex-direction: column;
+flex-wrap: wrap;
+
 }
 
 
